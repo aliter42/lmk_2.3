@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+	<style name="tabTheme" parent="android:Theme.Light"> 
+      <item name="android:tabWidgetStyle">@style/Widget.TabWidget</item>
+ 	</style> 
+
+ 	<style name="Widget.TabWidget" parent="android:Theme.Light"> 
+      <item name="android:tabStripEnabled">false</item>
+ 	</style>  
+</resources>

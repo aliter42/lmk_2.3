@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_height="0dp" 
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <ImageButton
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="Technology"
+            android:id="@+id/tech"
+            android:layout_weight="1"
+            android:layout_height="match_parent" 
+        	android:layout_width="0dp" 
+        	android:src="@drawable/tech"
+        	android:background="@color/white"></ImageButton>
+        <ImageButton
+            android:background="@color/white"
+            android:textSize="25dp"
+            android:text="Business"
+            android:id="@+id/business"
+            android:layout_weight="1"
+            android:layout_height="match_parent" 
+        	android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:src="@drawable/business">       
+        </ImageButton>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dp" 
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <ImageButton
+            android:background="@color/white"
+            android:textSize="25dp"
+            android:text="Arts and Design"
+            android:id="@+id/artNd"
+            android:layout_weight="1"
+            android:layout_height="match_parent" 
+        	android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:src="@drawable/arts">            
+        </ImageButton>
+        
+        <ImageButton
+            android:background="@color/white"
+            android:textSize="25dp"
+            android:text="Social Sciences"
+            android:id="@+id/sNs"
+            android:layout_weight="1"
+            android:layout_height="match_parent" 
+        	android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:src="@drawable/soc">            
+        </ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dp" 
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <ImageButton
+            android:background="@color/white"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="Maths and Sciences"
+            android:id="@+id/mathNsc"
+            android:layout_weight="1"
+            android:layout_height="match_parent" 
+        	android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:src="@drawable/sci">            
+        </ImageButton>        
+        <ImageButton
+            android:background="@color/white"
+            android:textSize="25dp"
+            android:text="All"
+            android:id="@+id/all"
+            android:layout_weight="1"
+            android:layout_height="match_parent" 
+        	android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:src="@drawable/all">            
+        </ImageButton>
+        
+        
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
